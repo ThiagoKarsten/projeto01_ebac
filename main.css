@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #A7ACBA;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div h1{
+margin-left: 60px;
+font-size: 50px;
+}
+
+header div{
+    padding: 25px 0;
+    background-color: #24262A;
+    color: #ecf0f1;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+header nav li a:hover{
+text-decoration: underline;
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#imagem_principal{
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+
+.lista_plataformas img{
+    height: 60px;
+}
+
+.lista_plataformas li{
+    display: inline;
+    margin-right: 20px;
+}
+
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section{
+    padding: 20px 0;
+}
+
+section h2{
+margin-bottom: 16px;
+}
+
+section{
+    color: rgb(26, 26, 26);
+}
+
+section p{
+    margin-bottom: 8px;
+    margin-right: 12px;
+}
+
+#imagem_curiosidade{
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.container div a{
+    background-color: #2499FF;
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.container div a:hover{
+    text-decoration: underline;
+}
+
+#imagem_criador{
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#contato container{
+    display: block;
+}
+
+.contato_metodos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadastro{
+    margin-left: 40%;
+}
+
+section h3{
+    margin-bottom: 10px;
+}
+
+form input,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 14px;
+}
+
+form button{
+    background-color: rgba(0, 0, 0, 0.63);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: black;
+}
+
+input:focus{
+    outline-color: #24262A;
+}
+
+footer{
+    background-color: #24262A;
+    color: #ecf0f1;
+    padding: 6px 0;
+}
